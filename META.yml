@@ -1,0 +1,30 @@
+---
+abstract: 'Pack and unpack big-endian IEEE754 floats and doubles'
+author:
+  - 'Dave Rolsky <autarch@urth.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::Bits: 0
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Data-IEEE754
+requires:
+  Config: 0
+  Exporter: 0
+  strict: 0
+  utf8: 0
+  warnings: 0
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Data-IEEE754
+  homepage: http://metacpan.org/release/Data-IEEE754
+  repository: git://git.urth.org/Data-IEEE754.git
+version: 0.01
+x_authority: cpan:DROLSKY

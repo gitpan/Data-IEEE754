@@ -1,0 +1,64 @@
+{
+   "abstract" : "Pack and unpack big-endian IEEE754 floats and doubles",
+   "author" : [
+      "Dave Rolsky <autarch@urth.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Data-IEEE754",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::CPAN::Changes" : "0.19",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Config" : "0",
+            "Exporter" : "0",
+            "strict" : "0",
+            "utf8" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Test::Bits" : "0",
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-data-ieee754@rt.cpan.org",
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Data-IEEE754"
+      },
+      "homepage" : "http://metacpan.org/release/Data-IEEE754",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://git.urth.org/Data-IEEE754.git",
+         "web" : "http://git.urth.org/Data-IEEE754.git"
+      }
+   },
+   "version" : "0.01",
+   "x_authority" : "cpan:DROLSKY"
+}
+
